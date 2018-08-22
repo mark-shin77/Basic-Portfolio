@@ -1,0 +1,93 @@
+/** Basic Portfolio **/
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: white;
+    color: black;
+    border: 1px;
+    border-color: #cccccc;
+    width: 100%;
+    top:0;
+    
+}
+
+body {
+    background: #ffffff;
+    margin: 0;
+    background: url(http://www.seekgif.com/thumb/white-ppt-background-30.jpg); 
+    background-size: 50%;
+    width: 960px;
+}
+
+
+#Name {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    float: left;
+    padding: 15px;
+    margin-top: 0;
+    margin-left: 15%;
+
+}
+
+#headerLinks {
+    color: #777777;
+    margin-right: 15%;
+    background: #ffffff;
+    float: right;
+}
+
+.MainContent {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    border: 1px;
+    border-color: #dddddd;
+    background: #ffffff;
+    clear: both;
+    padding: 10%;
+    margin: auto;
+    display: block;
+
+
+}
+
+#AboutMe {
+    color: #4aaaa5;
+    padding: 10px;   
+    border-bottom: 2px;
+
+
+}
+
+img {
+    float: left;
+
+}
+
+#Bio {
+    color: #777777;
+    text-align: left;
+    float: left;
+    margin-left: 15px;
+
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    border-top: 20px;
+    border-color: #4aaaa5;
+    background: #666666;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+    position:fixed;
+    width: 100%;
+    bottom:0;
+}
