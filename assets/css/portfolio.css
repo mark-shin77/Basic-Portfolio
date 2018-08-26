@@ -199,3 +199,11 @@ footer {
     bottom:0;
     position: fixed;
 }
+
+li a {
+    color: rgb(170, 168, 168);
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    display: block;
+ }
